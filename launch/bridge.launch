@@ -1,0 +1,14 @@
+<launch>
+
+  <!-- get command line arguments -->
+  <arg name="ip" default="192.168.0.1" />
+  <arg name="port" default="10100" />
+
+  <!-- pass data to parameter server -->
+  <param name="TCS_IP" value="$(arg ip)" />
+  <param name="TCS_PORT" value="$(arg port)" />
+
+  <!-- Setup.py will parameter server directly -->
+  <node name="TCS_bridge" pkg="pa_tcs_bridge" type="Setup.py" args="$(arg port)"/>
+
+</launch>
