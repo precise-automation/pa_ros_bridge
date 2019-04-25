@@ -5,15 +5,15 @@ A bridge between the ROS world and a Precise Automation controller running TCS. 
 ??
 If no catkin workspace,
 1. Create catkin workspace
-   a. `cd ~`
-   b. `mkdir my_workspace`
-   c. `cd my_workspace`
-   d. `catkin_make`
+   - `cd ~`
+   - `mkdir my_workspace`
+   - `cd my_workspace`
+   - `catkin_make`
 2. Navigate to src: `cd src` 
 3. Clone project: `git clone .....`
 4. Make
-   a. `cd ~/my_workspace.`
-   b. `catkin_make`
+   - `cd ~/my_workspace.`
+   - `catkin_make`
 
 ### Run
 1. `source ./devel/setup.bash`
