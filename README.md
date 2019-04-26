@@ -2,7 +2,7 @@
 A bridge between the ROS world and a Precise Automation controller running TCS. Provides a simple pass-through for string commands and replies.
 
 ### Install
-Requires ROS.
+*Requires ROS. Written with ROS Melodic.*
 If you already have a catkin workspace, skip to step 2.
 1. Create catkin workspace
    - `cd ~`
