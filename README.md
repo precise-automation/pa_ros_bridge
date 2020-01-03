@@ -1,4 +1,4 @@
-# pa_tcs_bridge
+# pa_ros_bridge
 A bridge between the ROS world and a Precise Automation controller running TCS. Provides a simple pass-through for string commands and replies.
 
 ### Install
